@@ -23,7 +23,7 @@ QDCMR with visual interface (QDCMRforView)
 Function of QDCMRforView
 ------------------------
 
-The QDCMR with visual interface facilates users to handle ChIP-Seq data. This version of QDCMR provides users the following functions: 
+The QDCMR with visual interface facilities users to handle ChIP-Seq data. This version of QDCMR provides users the following functions: 
 
 __1.  Import Data:__	Preprocess and import chromatin modification data.
 
@@ -43,7 +43,7 @@ Usage of QDCMRforView
 Download the compressed package named as "QDCMRforView.rar", and decompress it. 
 For windows please Double Click run StartWin.bat file
 For linux please run StartLinux.sh file
-The file named as "Tutorial.html" embedded in QDCMRforView.rar provides more ditailed information about QDCMRforView.
+The file named as "Tutorial.html" embedded in QDCMRforView.rar provides more detailed information about QDCMRforView.
 
 
 
@@ -52,7 +52,7 @@ QDCMR in command line (QDCMRforCommand)
 Function of QDCMRforCommand
 ---------------------------
 
-The QDCMR in command line facilates users to handle huge ChIP-Seq data in server automatically. This version of QDCMR cen  process the data automatically according to user's commond. 
+The QDCMR in command line facilities users to handle huge ChIP-Seq data in server automatically. This version of QDCMR can process the data automatically according to user's command. 
 
 Usage of QDCMRforCommand
 ------------------------
@@ -70,9 +70,9 @@ __For the processed data__
 
 >*   __-Xmx1024m:__     Use maximum memory for 1024M.
 >*   __-P:__            For processed data.
->*   __infile:__        The file path for the import data including the regions with chromation modifiction data across mutiple samples (File format is gct).
+>*   __infile:__        The file path for the import data including the regions with chromatin modification data across multiple samples (File format is gct).
 >*   __ResultFolder:__  The folder path for the export of analysis results of QDCMR.
->*   __SD:__            Standard Deviation--the standard deviation of probablity model for DCMR threshold.
+>*   __SD:__            Standard Deviation--the standard deviation of probability model for DCMR threshold.
 
 
 __For the region and raw chromatin modification data__
@@ -88,12 +88,12 @@ __For the region and raw chromatin modification data__
 >*   __-Xmx1024m:__ Use maximum memory for 1024M.
 >*   __-R:__ For region and raw chromatin modification data.
 >*   __RegionFile:__ The file path for the import region data (File format is bed).
->*   __ReadFolder:__ The folder path including the raw read files of Chromatin Modifications by ChIP-Seq (Read file formatfor is bed).
+>*   __ReadFolder:__ The folder path including the raw read files of Chromatin Modifications by ChIP-Seq (Read file format for is bed).
 >*   __ResultFolder:__ The folder path for the export of analysis results of QDCMR.
->*   __SD:__ Standard Deviation--the standard deviation of probablity model for DCMR threshold.
+>*   __SD:__ Standard Deviation--the standard deviation of probability model for DCMR threshold.
 >*   __Expand Length:__ Applicable to the single-terminal sequencing data. User can select or input the suitable length of sequence represented by each read. Each read is expanded to the length firstly, and then mapped to corresponding region.
 >*   __Bin Size:__ The unit of region segment. The default value is 1 bp meaning the total read number in each region is normalized by the region length.
->*   __Depth Normalization:__ (YES or NO,YES--In Depth Normalization,NO--Don't Depth Normalization)Considering the different sequencing depth of ChIP-Seq files, the read number is further normalized by the total read number of the given ChiP-Seq file relative to the mean of the total read numbers of the all used ChiP-Seq files.
+>*   __Depth Normalization:__ (YES or NO,YES--In Depth Normalization, NO--Don't Depth Normalization)Considering the different sequencing depth of ChIP-Seq files, the read number is further normalized by the total read number of the given ChiP-Seq file relative to the mean of the total read numbers of the all used ChiP-Seq files.
 
 
 Format guide
@@ -120,7 +120,7 @@ BED
 >
 >__strand__ - Defines the strand - either '+' or '-'.
 >
->bed format online:http://genome.ucsc.edu/FAQ/FAQformat.html#format1
+>bed format online: http://genome.ucsc.edu/FAQ/FAQformat.html#format1
 
 
 GCT
@@ -136,7 +136,7 @@ GCT
 
 >In the third row is header line
 
->In the next is data,Former two columns is ID and description,and later is data matrix to N*M
+>In the next is data, Former two columns is ID and description, and later is data matrix to N*M
 
 >gct format online:http://www.broadinstitute.org/cancer/software/genepattern/gp_guides/file-formats#_Creating_Input_Files_GCT
 
@@ -150,6 +150,3 @@ __GCER__, Our group http://202.97.205.78/gcer/
 __MACS__, a tool for ChIP-chip/seq analysis: https://github.com/taoliu/MACS
 
 __bedTools__, a super useful toolkits for genome annotation files: http://code.google.com/p/bedtools/
-
-
-				        
