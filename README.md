@@ -1,6 +1,8 @@
 ========================
 README for QDCMR (1.0.0)
 ========================
+Time-stamp: 2013-03-23 12:32:12 Hongbo Liu
+
 
 Introduction
 ============
@@ -141,8 +143,13 @@ GCT
 
 Other useful links
 ==================
-:QDMR, a tool for identification and analysis differentially methylated regions: http://bioinfo.hrbmu.edu.cn/qdmr/
-:MACS, a tool for ChIP-chip/seq analysis: https://github.com/taoliu/MACS
-:bedTools, a super useful toolkits for genome annotation files: http://code.google.com/p/bedtools/
-:GCER: Our group http://202.97.205.78/gcer/
+__QDMR__, a tool for identification and analysis differentially methylated regions: http://bioinfo.hrbmu.edu.cn/qdmr/
+
+__GCER__, Our group http://202.97.205.78/gcer/
+
+__MACS__, a tool for ChIP-chip/seq analysis: https://github.com/taoliu/MACS
+
+__bedTools__, a super useful toolkits for genome annotation files: http://code.google.com/p/bedtools/
+
+
 				        
