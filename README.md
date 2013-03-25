@@ -143,7 +143,7 @@ GCT
 
 Other useful links
 ==================
-__QDMR__, a tool for identification and analysis differentially methylated regions: http://bioinfo.hrbmu.edu.cn/qdmr/
+__QDMR__, a tool for identification and analysis of differentially methylated regions: http://bioinfo.hrbmu.edu.cn/qdmr/
 
 __GCER__, Our group http://202.97.205.78/gcer/
 
