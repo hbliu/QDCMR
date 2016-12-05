@@ -150,3 +150,9 @@ __GCER__, Our group http://202.97.205.78/gcer/
 __MACS__, a tool for ChIP-chip/seq analysis: https://github.com/taoliu/MACS
 
 __bedTools__, a super useful toolkits for genome annotation files: http://code.google.com/p/bedtools/
+
+
+Citation
+========
+Please cite following paper if you used QDCMR of related information:
+Liu, H., Chen, Y., Lv, J., Zhu, R., Su, J., Liu, X., Zhang, Y. and Wu, Q. (2013) Quantitative epigenetic co-variation in CpG islands and co-regulation of developmental genes. Scientific reports, 3, 2576.
