@@ -154,5 +154,5 @@ __bedTools__, a super useful toolkits for genome annotation files: http://code.g
 
 Citation
 ========
-Please cite following paper if you used QDCMR of related information:
+Please cite following paper if you used QDCMR or related information:
 Liu, H., Chen, Y., Lv, J., Zhu, R., Su, J., Liu, X., Zhang, Y. and Wu, Q. (2013) Quantitative epigenetic co-variation in CpG islands and co-regulation of developmental genes. Scientific reports, 3, 2576.
